@@ -25,7 +25,9 @@ function WelcomeSection() {
                 // Same substring at the start will only be typed out once, initially
                 " Birthday!!",
                 2000,
-                " 24!!",
+                " 24-03-2000",
+                2000,
+                "24 years✨✨",
                 2000,
               ]}
               wrapper="span"
@@ -43,7 +45,7 @@ function WelcomeSection() {
           transition={{ duration: 0.3 }}
           className="col-span-4 place-content-center mt-10 lg:mt-0 mx-auto lg:place-content-start text-center relative inline-block"
         >
-          <div className="flex justify-center bg-gradient-to-b from-[#ff9a9e] rounded-full  w-[400px] h-[390px] relative overflow-hidden  ">
+          <div className="flex justify-center bg-gradient-to-b from-[#ff9a9e] rounded-full  w-[250px] h-[250px] lg:w-[400px] lg:h-[390px] relative overflow-hidden  ">
             <Image
               src="/assets/images/cake.svg"
               alt="me"

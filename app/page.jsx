@@ -1,6 +1,8 @@
 import Image from "next/image";
 import WelcomeSection from "./components/WelcomeSection";
 import Carrousel from "./components/Carrousel";
+import CardSection from "./components/Card";
+import FooterSection from "./components/Footer";
 
 export default function Home() {
   return (
@@ -11,12 +13,12 @@ export default function Home() {
       <div className=" mx-auto px-20 py-5 h-screen w-full content-center bg-yellow-100 ">
         <Carrousel />
       </div>
-      {/* <div className=" mx-auto px-20 py-5 h-screen w-full content-center bg-purple-200 ">
-        <WelcomeSection />
+      <div className=" mx-auto px-20 py-5 h-screen w-full content-center bg-purple-200 ">
+        <CardSection />
       </div>
-      <div className=" mx-auto px-20 py-5 h-screen w-full content-center bg-pink-300 ">
-        <WelcomeSection />
-      </div> */}
+      <div>
+        <FooterSection />
+      </div>
     </main>
   );
 }
