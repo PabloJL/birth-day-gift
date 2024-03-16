@@ -1,6 +1,7 @@
 "use client";
 import { Button, Card } from "flowbite-react";
 import { FaSpotify } from "react-icons/fa";
+import { SiApplemusic } from "react-icons/si";
 
 const songs = [
   {
@@ -29,17 +30,18 @@ const songs = [
 function SongsSection() {
   return (
     <div className="flex flex-col items-center ">
-      <h1 className=" text-5xl pb-20 font-bold">
+      <h1 className=" text-5xl pb-20 font-bold flex flex-row  gap-5">
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#c471f5] to-[#fa71cd] hover:bg-slate-200 ">
           SONGS 4 YOU
         </span>
+        <SiApplemusic className=" text-[#c471f5]" />
       </h1>
       <div className="flex flex-col justify-center gap-20 md:flex-row">
         {songs.map((song, index) => (
           <Card
             key={index}
             className=" max-w-80 hover:scale-125"
-            imgAlt="Meaningful alt text for an image that is not purely decorative"
+            imgAlt={song.name}
             imgSrc={song.imgUrl}
           >
             <div className="flex justify-between items-center">

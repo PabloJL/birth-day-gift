@@ -11,13 +11,13 @@ export default function Home() {
       <div className=" mx-auto px-20 py-5 h-screen w-full content-center bg-gradient-to-t from-[#fad0c4] to-[#ffd1ff] ">
         <WelcomeSection />
       </div>
-      <div className=" mx-auto px-20 py-5 h-screen w-full content-center bg-yellow-100 ">
+      <div className=" mx-auto px-20 py-5 h-screen w-full content-center bg-purple-300 ">
         <Carrousel />
       </div>
       <div className=" mx-auto px-20 py-5  md:h-screen h-auto w-full content-center bg-pink-300 ">
         <SongsSection />
       </div>
-      <div className=" mx-auto px-20 py-5 md:h-screen h-auto  w-full content-center bg-purple-300 ">
+      <div className=" mx-auto px-20 py-5 md:h-screen h-auto  w-full content-center  bg-yellow-100 ">
         <CardSection />
       </div>
       <div>

@@ -96,7 +96,7 @@ function CardSection() {
           </div>
         </Card>
       ) : (
-        <Card className="md:h-3/4 shadow-lg   ">
+        <Card className="md:h-3/4 shadow-lg">
           <div className="flex items-center flex-col">
             <button
               className="bg-blue-200 h-24 w-24 flex items-center justify-center rounded-full shadow-lg"
